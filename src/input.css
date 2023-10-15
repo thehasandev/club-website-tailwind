@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-[66px] py-[17px] inline-block rounded-[5px]  duration-500 border;
+  }
+
+  .btn-bg {
+    @apply bg-transparent  text-white   w-full  hover:border-[#3775ED] hover:border mb-5 md:mb-0 md:mr-5 md:w-[250px] mt-7  hover:bg-[#3775ED] border-white;
+  }
+  .btn-tranparent {
+    @apply bg-[#3775ED] text-white   w-full  hover:border-white hover:border mb-5 md:mb-0 md:mr-5 md:w-[250px] mt-7  hover:bg-transparent border-[#3775ED];
+  }
+}
